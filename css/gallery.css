@@ -1,0 +1,180 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  font: 400 12px 'Adequate-Light', sans-serif;
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+  line-height: 1.6;
+  text-align: center;
+	text-transform: lowercase;
+  background-color: rgb(217, 213, 203);
+}
+
+header{
+  width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+nav{
+	padding: 15px 0;	
+}
+
+a{
+	color: rgb(51, 100, 139);
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 5px 30px;
+  transition: color 250ms ease;
+}
+
+a:hover{
+	color: rgb(210,49,69);
+}
+
+/*styling for instagram button*/
+.insta{
+	display: inline-block;
+	width: 30px;
+	padding: 15px 0;
+	margin: 0 30px;
+	background-image: url(../images2/glyph-logo_May2016.png);
+	background-size: contain;
+}
+
+h1{
+	font-family: 'Adequate-ExtraLight';
+  font-size: 3.4em;
+	margin-top: 1%;
+}
+
+.filters{
+	padding-top: 0;
+}
+
+.js-filter{
+	display: inline-block;
+  text-align: left;
+}
+
+.js-clear{
+	display: inline-block;
+	text-align: left;
+}
+
+.gallery{
+  width: 100%;
+ 	padding: 30px 0 15px 0;
+}
+
+.print {
+	height: 405px;
+	width: 80%;
+  margin: 15px 10% 15px 10%;
+  position: relative;
+}
+
+.print img{
+	max-width: 85%;
+	max-height: 290px;
+	margin-top: 10px;
+  box-shadow: 3px 3px 3px #aaaaaa;	
+	transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.print img:hover{
+  transform: translate3d(-5px, -5px, 0);
+}
+
+.meta {
+	text-align: center;
+	font-size: 10px;
+	padding: 20px 0 0 0;
+}
+
+.meta a{
+	padding: 5px 0;
+}
+
+footer{
+	padding: 5px 0;
+  background-color: rgb(217, 213, 203);
+}
+
+.copyright{
+  padding: 5px 0;
+	background: rgba(217, 213, 203, 0.9);
+}
+
+
+.lightbox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background: rgba(217, 213, 203, 0.88);
+  display: none;
+}
+
+.lightbox img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 88%;
+  max-height: 88%;
+/*	lighbox images have a narrow border in a very slightly different colour to background*/
+	border: 3px solid rgb(217, 213, 193);
+}
+
+
+/*media queries*/
+@media screen and (min-width: 460px){
+	.print {
+	width: 40%;
+  margin: 15px 5% 15px 5%;
+	}	
+}
+
+@media screen and (min-width: 800px){
+	a {padding: 5px 30px;}
+	body{font-size: 14px;}
+	.print {
+	width: 30%;
+  margin: 15px 1.66% 15px 1.66%;
+	}	
+	.meta {font-size: 12px;}
+}
+
+@media screen and (min-width: 900px){
+		body{font-size: 16px;}
+	.filters{font-size: 0.8em;}
+}
+
+@media screen and (min-width: 1000px){
+	body{font-size: 18px;}
+	.print {
+	width: 22%;
+  margin: 15px 1.5% 15px 1.5%;
+	}	
+}
+
+@media screen and (min-width: 1200px){
+	body{font-size: 20px;}
+}
+
+@media screen and (min-width: 1300px){
+	.print {
+	width: 16.6%;
+  margin: 15px 1.7% 15px 1.7%;
+	}	
+}
+
+@media screen and (min-width: 1400px){
+	body{font-size: 22px;}
+}

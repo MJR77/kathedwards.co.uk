@@ -1,0 +1,180 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  font: 400 12px 'Adequate-Light', sans-serif;
+	color: rgb(0, 0, 0);
+  line-height: 1.6;
+  text-align: center;
+	text-transform: lowercase;
+  background-color: rgb(255, 255, 255);
+}
+
+header{
+  width: 100%;
+  height: 100%;
+}
+
+nav{
+	padding: 15px 0;	
+}
+
+nav a{
+	color: rgb(51, 100, 139);
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 5px 12px;
+  transition: color 250ms ease;
+}
+
+a:hover{
+	color: rgb(210,49,69);
+}
+
+/*styling for instagram button*/
+.insta{
+	display: inline-block;
+	width: 30px;
+	padding: 15px 0;
+	margin: 0 30px;
+	background-image: url(../images2/glyph-logo_May2016.png);
+	background-size: contain;
+}
+
+h1{
+	font-family: 'Adequate-ExtraLight';
+  font-size: 3.4em;
+	margin-top: 1%;
+}
+
+h3{
+	font-size: 1.4em;
+	color: rgb(51, 100, 139);
+	padding: 2% 0 3% 0;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.centertext{
+	padding-top: 5%;
+	max-width: 74%;
+	text-align: center;
+	margin: auto;
+}
+
+.scrolltext{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+}
+
+.container{
+  height: 200%;
+	background-image: url(../images2/pattern2a.jpg);
+	background-size: 50%;
+	z-index: 0;
+}
+
+.last{
+	height: 193.4%;
+}
+
+.scroll-effect{
+	height: 100%;
+	background-color: rgba(217, 213, 203, 0.85);
+}
+
+.transparent{
+  height: 50%;
+}
+
+.last-transparent{
+	height: 52.1%;
+}
+
+.content{
+  height: 50%;  
+	z-index: 10;
+  background-color: rgba(217, 213, 203, 0.85);
+ }
+
+.seriestext{
+	font-size: 1.4em;
+  max-width: 80%;
+  padding-top: 60px;
+	margin	20px;
+  height: 45%;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.serieslink{
+  display: block;
+}
+
+.serieslink a{
+  font-size: 1.4em;
+}
+
+.scroll-effect{
+	height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.scroll-effect.wings{
+  background-image: url(../images2/peregrine%20falcon%20print%20-%20kath%20edwards.jpg);
+}
+
+.scroll-effect.london{
+  background-image: url(../images2/st%20pauls%20dome%20print%20-%20kath%20edwards.jpg);
+}
+
+.scroll-effect.petals{
+  background-image: url(../images2/common%20blue%20flower%20print%20-%20kath%20edwards.jpg);
+}
+
+.scroll-effect.iron{
+  background-image: url(../images2/Iron&Steel%20-%20gasworks%20print%20-%20kath%20edwards.jpg);
+}
+
+.copyright{
+  padding: 5px 0;
+	background: rgb(217, 213, 203);
+}
+
+
+/*media queries*/
+@media screen and (min-width: 800px){
+	body{font-size: 14px;}
+	nav a{
+		padding: 0 30px;
+	}
+}
+
+@media screen and (min-width: 900px){
+	body{font-size: 16px;}
+}
+
+@media screen and (min-width: 1000px){
+		body{font-size: 18px;}
+}
+
+@media screen and (min-width: 1200px){
+	body{font-size: 20px;}
+}
+
+@media screen and (min-width: 1400px){
+	body{font-size: 22px;}
+}
+
+

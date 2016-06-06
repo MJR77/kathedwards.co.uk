@@ -1,0 +1,46 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3151134, 2016-01-09T10:50:30-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Adequate-Light by K-Type
+ * URL: http://www.myfonts.com/fonts/k-type/adequate/light/
+ * 
+ * Webfont: Adequate-LightItalic by K-Type
+ * URL: http://www.myfonts.com/fonts/k-type/adequate/light-italic/
+ * 
+ * Webfont: Adequate-ExtraLightItalic by K-Type
+ * URL: http://www.myfonts.com/fonts/k-type/adequate/extra-light-italic/
+ * 
+ * Webfont: Adequate-ExtraLight by K-Type
+ * URL: http://www.myfonts.com/fonts/k-type/adequate/extra-light/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3151134
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright (c) 2011 by K-Type. All rights reserved.
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/30151e");
+
+  
+@font-face {font-family: 'Adequate-Light';src: url('webfonts/30151E_0_0.eot');src: url('webfonts/30151E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/30151E_0_0.woff2') format('woff2'),url('webfonts/30151E_0_0.woff') format('woff'),url('webfonts/30151E_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Adequate-LightItalic';src: url('webfonts/30151E_1_0.eot');src: url('webfonts/30151E_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/30151E_1_0.woff2') format('woff2'),url('webfonts/30151E_1_0.woff') format('woff'),url('webfonts/30151E_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Adequate-ExtraLightItalic';src: url('webfonts/30151E_2_0.eot');src: url('webfonts/30151E_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/30151E_2_0.woff2') format('woff2'),url('webfonts/30151E_2_0.woff') format('woff'),url('webfonts/30151E_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Adequate-ExtraLight';src: url('webfonts/30151E_3_0.eot');src: url('webfonts/30151E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/30151E_3_0.woff2') format('woff2'),url('webfonts/30151E_3_0.woff') format('woff'),url('webfonts/30151E_3_0.ttf') format('truetype');}
+ 

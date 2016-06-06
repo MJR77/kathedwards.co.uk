@@ -1,0 +1,128 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  font: 400 12px 'Adequate-Light', sans-serif;
+	color: rgb(0, 0, 0);
+  line-height: 1.6;
+  text-align: center;
+	text-transform: lowercase;
+	position: static;
+	z-index; 10; 
+	background-image: url(../images2/pattern2a.jpg);
+	background-size: 50%;
+}
+
+header{
+  width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+nav{
+	padding: 15px 0;	
+}
+
+nav a{
+	color: rgb(51, 100, 139);
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 5px 12px;
+  transition: color 250ms ease;
+}
+
+a:hover{
+	color: rgb(210,49,69);
+}
+
+/*styling for instagram button*/
+.insta{
+	display: inline-block;
+	width: 30px;
+	padding: 15px 0;
+	margin: 0 30px;
+	background-image: url(../images2/glyph-logo_May2016.png);
+	background-size: contain;
+}
+
+h1{
+	font-family: 'Adequate-ExtraLight';
+  font-size: 3.4em;
+	margin-top: 1%;
+}
+
+.container{
+	min-height: 80%;
+	position: absolute;
+	background-color: rgba(217, 213, 203, 0.96);	
+	z-index: 0;
+}
+
+.picture{
+	margin: 2% auto;
+}
+
+.picture img{
+	margin: 22px 0;
+	max-width: 75%;
+	box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.text{
+	padding: 0 0 20px 0;
+	margin: 2% auto 5% auto;
+}
+
+.text p{
+	text-align: left;
+	padding: 12px 20px;
+}
+
+.thanks{
+	margin: 22px 0 0 0;
+}
+
+footer{
+	float: clear;
+	z-index: 10;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	padding: 5px 0;
+  background-color: rgb(217, 213, 203);
+}
+
+
+/*media queries*/
+@media screen and (min-width: 800px){
+	body{font-size: 16px;}	
+	.picture{
+		float: left;
+		max-width: 30%;
+		margin-left: 15px;
+		margin-bottom: 6%;
+	}
+	.text{
+		float: right;
+		width: 64%;
+		margin-right: 15px;
+		padding: 10px 0 20px 0;
+	}
+	.text p{font-size: 0.9em;}
+	nav a{padding: 0 30px;}
+}
+
+@media screen and (min-width: 1000px){
+		body{font-size: 18xp;}
+}
+
+@media screen and (min-width: 1200px){
+	body{font-size: 20px;}
+	.text p{font-size: 0.7em}
+}
+
+@media screen and (min-width: 1400px){
+	body{font-size: 22px;}
+}
+
